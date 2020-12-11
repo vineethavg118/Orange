@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-11T16:46:55.039Z",
+        "line": 3,
+        "name": "To verify login functionality",
+        "description": "",
+        "id": "to-check-orangehrm-login-functionality;to-verify-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12563711500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the Application on the browser",
+            "match": {
+              "location": "com.stepdefinitions.LoginSteps.to_launch_the_Application_on_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1222018400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter username and password and click on loginbutton",
+            "match": {
+              "location": "com.stepdefinitions.LoginSteps.enter_username_and_password_and_click_on_loginbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 416217300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close the browser",
+            "match": {
+              "location": "com.stepdefinitions.LoginSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Check OrangeHRM login functionality",
+    "description": "",
+    "id": "to-check-orangehrm-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Orangelogin.feature",
+    "tags": []
+  }
+]
